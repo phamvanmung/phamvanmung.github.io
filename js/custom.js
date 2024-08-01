@@ -1,4 +1,4 @@
-// JavaScript Document
+﻿// JavaScript Document
 
 $(window).load(function () {
     "use strict";
@@ -106,10 +106,16 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
+
+    // Phát hiện vuốt quay về (swipe right) để đóng modal
+    $("#animatedModal").on("swiperight", function () {
+        $("#animatedModal").animatedModal('close');
+    });
+
     // Contact Form 	
 
     // validate contact form
-    $(function () {
+    $(function () { 
         $('#contact-form').validate({
             rules: {
                 name: {

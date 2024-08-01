@@ -1511,7 +1511,7 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #444;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -1543,7 +1543,9 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/download/home-bg-2.jpg);
+    background: url(../img/download/bg3.jpg);
+    /*background: url(../img/download/bg3.jpg);*/
+    /*background: url(../img/download/home-bg-2.jpg);*/
     background-size: cover;
     height: 100vh;
 }
