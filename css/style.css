@@ -1296,13 +1296,18 @@ font-family: 'Open Sans', sans-serif;
 
 /* typography
 ==================================================*/
-
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
 }
 
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    line-height: 70px;
+    color: white;
+}
 h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
@@ -1313,16 +1318,38 @@ h4 {
     font-weight: 700;
 }
 
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #425BB5;
-    top: 9px;
+    h4:before {
+        position: absolute;
+        width: 30px;
+        left: -40px;
+        content: "";
+        display: block;
+        height: 2px;
+        background: #425BB5;
+        top: 9px;
+    }
+
+.job {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: white;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 32px;
 }
+
+    .job:before {
+        position: absolute;
+        width: 30px;
+        left: -40px;
+        content: "";
+        display: block;
+        height: 2px;
+        background: white;
+        top: 18px;
+    }
 
 
 /* General
@@ -1510,7 +1537,7 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }
@@ -1543,8 +1570,8 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/download/bg3.jpg);
-    /*background: url(../img/download/bg3.jpg);*/
+    background: url(../img/download/markus-spiske-N8yoH-dj4k8-unsplash.jpg);
+    /*background: url(../img/home-bg-2.jpg);*/
     /*background: url(../img/download/home-bg-2.jpg);*/
     background-size: cover;
     height: 100vh;
@@ -1791,7 +1818,7 @@ a.active {
     font-size: 18px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
-    -webkit-transition: all .3s ease-in-out .3s;
+    -webkit-transition: all .3s ease-in-out .3s;nav ul li
     transition: all .3s ease-in-out .3s;
     opacity: 0;
 }
