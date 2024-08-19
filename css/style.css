@@ -1631,6 +1631,7 @@ a.active {
 }
 
 
+
 /* experience section
 ==================================================*/
 
@@ -2090,9 +2091,24 @@ fieldset {
 }
 
 @media (max-width: 768px) {
+
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+    .about-img-div img {
+        margin: 0 14px;
+        width: 380px;
+    }
+
+    .about-border {
+        position: absolute;
+        border: 10px solid #425BB5;
+        width: 374px;
+        height: 370px;
+        top: -10px;
+        left: -9px;
+        z-index: 1;
     }
 }
 
@@ -2106,9 +2122,9 @@ fieldset {
     .disply-table {
         height: 600px;
     }
-    .about-border {
+/*    .about-border {
         width: 265px;
-    }
+    }*/
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
