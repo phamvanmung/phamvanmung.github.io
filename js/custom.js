@@ -192,3 +192,10 @@ window.addEventListener('load', function() {
         loader.remove();
     }
 });
+document.addEventListener('DOMContentLoaded', function () {
+    var aboutImage = document.getElementById('aboutImage');
+    aboutImage.addEventListener('animationend', function () {
+        var aboutBorder = document.querySelector('.about-border');
+        aboutBorder.appendChild(aboutImage);
+    });
+});
