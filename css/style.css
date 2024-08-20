@@ -1982,6 +1982,14 @@ a.active {
     padding: 100px 0;
     background: #f3f3f3
 }
+    #contact h4 {
+        font-family: 'Lato', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: #425BB5;
+        font-size: 16px;
+        font-weight: bold
+    }
 
 #contact-form input,
 #contact-form textarea {
