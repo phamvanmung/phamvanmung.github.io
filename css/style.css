@@ -1607,7 +1607,7 @@ a.active {
 
 /* General styles */
 #about {
-    padding: 100px 0;
+    padding: 75px 0 0 0;
 }
 
     #about h4 {
@@ -1648,7 +1648,7 @@ a.active {
 ==================================================*/
 
 #experience {
-    padding: 100px 0;
+    padding: 50px 0;
     background: #f3f3f3
 }
 
@@ -1718,7 +1718,7 @@ a.active {
 }
 
 .timeline-event-copy {
-    padding: 2em;
+    padding: 25px 0px 0px 10px;
     position: relative;
     top: -1.875em;
     left: 4em;
@@ -1733,7 +1733,9 @@ a.active {
     font-size: 1.2em;
     margin-bottom: 1.2em;
 }
-
+    .timeline-event-copy p {
+        margin: 0 0 0 5px;
+    }
 .timeline-event-copy strong {
     font-weight: 700;
 }
@@ -1784,7 +1786,14 @@ a.active {
 #projects {
     padding: 100px 0;
 }
-
+    #projects h4 {
+        font-family: 'Lato', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: #425BB5;
+        font-size: 16px;
+        font-weight: bold
+    }
 .portfolio .categories-grid span {
     font-size: 30px;
     margin-bottom: 30px;
@@ -1927,7 +1936,7 @@ a.active {
 
 .portfolio-inner {
     padding-bottom: 0 !important;
-    padding-top: 55px;
+    padding-top: 135px;
 }
 
 .modal-content {
@@ -1939,7 +1948,7 @@ a.active {
     background: #fff;
 }
 
-.close-popup-modal {
+.close-popup-modal, .close-popup-modal-1, .close-popup-modal-2, .close-popup-modal-3 {
     float: right;
     margin: 20px;
     font-size: 22px;
@@ -1955,7 +1964,9 @@ a.active {
 }
 
 .animatedModal-on .close-popup-modal,
-.animatedModal1-on .close-popup-modal {
+.animatedModal-1-on .close-popup-modal-1, 
+.animatedModal-2-on .close-popup-modal-2, 
+.animatedModal-3-on .close-popup-modal-3 {
     opacity: 1;
 }
 .modal-content h2 {
