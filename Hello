@@ -1,0 +1,15 @@
+from datetime import datetime
+
+def check_yyyymmdd(date_str):
+    if len(date_str) != 8:
+        return False
+    try:
+        datetime.strptime(date_str, "%Y%m%d")
+        return True
+    except ValueError:
+        return False
+
+# Ví dụ sử dụng
+date_str = "20240826"
+is_valid = check_yyyymmdd(date_str)
+print(is_valid)  # Kết quả sẽ là True nếu hợp lệ, False nếu không hợp lệ
